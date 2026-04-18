@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+statsmodels
+SQLAlchemy
+PyMySQL
+python-dotenv
+joblib
+requests
