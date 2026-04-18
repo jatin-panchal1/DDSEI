@@ -53,13 +53,13 @@ config = AppConfig()
 # Page Setup
 # ----------------------------------------------------------------------
 st.set_page_config(
-    page_title="Unlox Engagement Engine",
+    page_title="DDSEI Engagement Engine",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
-st.title("📱 Unlox: Data-Driven Social Engagement")
+st.title("📱 DDSEI: Data-Driven Social Engagement")
 st.markdown("---")
 
 # Create navigation tabs (Added the Content Analyzer tab!)
@@ -288,4 +288,4 @@ with tab_predictor:
 # Footer
 # ----------------------------------------------------------------------
 st.markdown("---")
-st.caption("© 2026 Unlox • DDSEI Platform • v1.0.0")
+st.caption("© 2026 DDSEI • DDSEI Platform • v1.0.0")
