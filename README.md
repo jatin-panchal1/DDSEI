@@ -1,6 +1,6 @@
-# 🚀 Unlox: Omni-Channel Social Engagement Engine
+# 🚀 DDSEI: Omni-Channel Social Engagement Engine
 
-Unlox is a full-stack, AI-powered social media analytics platform designed to extract, analyze, and predict content performance across YouTube and Instagram. 
+DDSEI is a full-stack, AI-powered social media analytics platform designed to extract, analyze, and predict content performance across YouTube and Instagram. 
 
 Built entirely in Python, it combines automated data scraping, NLP sentiment analysis, and machine learning into a unified Streamlit dashboard, allowing creators and marketers to make data-driven decisions.
 
@@ -22,12 +22,12 @@ Built entirely in Python, it combines automated data scraping, NLP sentiment ana
 
 ## ⚙️ Installation & Setup
 
-Follow these steps to run Unlox on your local machine.
+Follow these steps to run DDSEI on your local machine.
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/yourusername/unlox.git](https://github.com/yourusername/unlox.git)
-cd unlox
+git clone [https://github.com/jatin-pancahal1/DDSEI.git](https://github.com/jatin-panchal1/DDSEI.git)
+cd DDSEI
 ```
 2. Install dependencies
 Make sure you have Python installed, then run:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 Create a .env file in the root directory and add your MySQL database connection string and PowerBI embed URL:
 
 Code snippet
-DATABASE_URL="mysql+pymysql://username:password@localhost/unlox_db"
+DATABASE_URL="mysql+pymysql://username:password@localhost/DDSEI_db"
 POWERBI_EMBED_URL="[https://app.powerbi.com/reportEmbed?reportId=](https://app.powerbi.com/reportEmbed?reportId=)..."
 4. Train the Virality AI Model
 Before running the dashboard, train the Random Forest model on your existing database metrics:
