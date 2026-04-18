@@ -57,3 +57,14 @@ Start the Streamlit web application:
 Bash
 streamlit run app.py
 The application will automatically open in your browser at http://localhost:8501.
+
+📂 Project Architecture
+app.py: The main Streamlit frontend application.
+
+pipeline_orchestrator.py: The ETL engine that coordinates API scraping, NLP, and database loading.
+
+virality_model.py: The machine learning pipeline that trains and saves the Random Forest model.
+
+ab_test.py: The statistical engine for calculating A/B test significance.
+
+mysql_export.py: Handles secure database connections and SQLAlchemy upserts.
